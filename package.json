@@ -1,0 +1,19 @@
+{
+  "name": "ua_fullstack",
+  "version": "1.0.0",
+  "description": "primer proyecto de nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jebusx33/UA_FullStack.git"
+  },
+  "author": "Jesus Arias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jebusx33/UA_FullStack/issues"
+  },
+  "homepage": "https://github.com/Jebusx33/UA_FullStack#readme"
+}
