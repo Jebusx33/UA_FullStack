@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Jebusx33/UA_FullStack/issues"
   },
-  "homepage": "https://github.com/Jebusx33/UA_FullStack#readme"
+  "homepage": "https://github.com/Jebusx33/UA_FullStack#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {}
 }
