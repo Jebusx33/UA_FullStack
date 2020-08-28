@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,15 +9,146 @@
     <!-- Bootstrap CSS in nodeJs-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+    <link rel="stylesheet" href="style.css">
+    <title>Guia de Hoteles</title>
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1>Hoteles</h1>
+    </div>
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-sm-4">
+                <p>
+                    <h3>¿Como funciona?</h3>
+                    <p>Busca los hoteles deacuerdo a tu preferencia.</p>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                    <h3>¿Dónde puedo reservar?</h3>
+                    <p>Elija la ciudad que mas le interese y luego realizá la reserva ingresando tus datos.</p>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                    <h3>¿Cómo pago?</h3>
+                    <p>Utilizando su medio de pago favorito.</p>
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="d-flex flex-wrap flex-row-reverse ">
+            <!--acomoda los que esta adentro-->
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Barcelona</h4>
+                    <p>Hotel ubicado en pleno centro de Barcelona a pocosmetros de la playa</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                </div>
+            </div>
+
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Buenos Aires</h4>
+                    <p>Hotel ubicado en pleno centro de la ciudad</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                </div>
+            </div>
+
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Lima</h4>
+                    <p>Hotel ubicado en el centro</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                </div>
+            </div>
+
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Rio de janeiro</h4>
+                    <p>Hotel ubicado en pleno centro de Rio de janeiro a pocosmetros de la playa</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel La paz</h4>
+                    <p>Hotel ubicado en el centro</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Madrid</h4>
+                    <p>Hotel ubicado en el centro</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel San Pablo</h4>
+                    <p>Hotel ubicado en el centro</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column align-items-start">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <address>
+                    <h3>Oficina Central</h3>
+                    <p> Sarasa 844 ,CABA, Argentina</p>
+                    <p> +549110123456</p>
+                    <a href="mailto:">contacto@guiahoteles</a>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="#">Nosotros</a>
+                <a href="#">Precios</a>
+                <a href="">Terminos y condiciones</a>
+                <a href="">Contactos</a>
+            </div>
+        </div>
+    </footer>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS in nodeJS  -->
-    <script src="node_modules/jquery/dist/jquery.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
     <script src="node_modules/popper.js/dist/popper-utils.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
