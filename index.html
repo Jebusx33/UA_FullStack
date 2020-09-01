@@ -5,20 +5,46 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <!-- Bootstrap CSS in nodeJs-->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
     <title>Guia de Hoteles</title>
 </head>
 
 <body>
-
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="#">Hoteles</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Terminos y condiciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Jumbotron-->
     <div class="jumbotron">
         <h1>Hoteles</h1>
     </div>
+    <!--Contenedor-->
     <div class="container">
+ 
+ <!--*****************breadcrumb**********************-->       
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">Home</li>
+    </ol>
+  </nav>
+
         <div class="row d-flex">
             <div class="col-sm-4">
                 <p>
@@ -41,7 +67,7 @@
         </div>
 
         <hr>
-
+        <!--tarjetas-->
         <div class="d-flex flex-wrap flex-row-reverse ">
             <!--acomoda los que esta adentro-->
             <div class="card-hotel d-flex flex-column justify-content-between">
@@ -50,7 +76,7 @@
                     <p>Hotel ubicado en pleno centro de Barcelona a pocosmetros de la playa</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                    <button type="button" class="btn btn-secondary btn-reserva"> Reservar <span class="oi oi-plus"></span></button>
                 </div>
             </div>
 
@@ -60,7 +86,7 @@
                     <p>Hotel ubicado en pleno centro de la ciudad</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                    <button type="button" class="btn btn-secondary btn-reserva">Reservar <span class="oi oi-plus"></span> </button>
                 </div>
             </div>
 
@@ -70,7 +96,7 @@
                     <p>Hotel ubicado en el centro</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                    <button type="button" class="btn btn-secondary btn-reserva"> Reservar <span class="oi oi-plus"></span></button>
                 </div>
             </div>
 
@@ -80,7 +106,7 @@
                     <p>Hotel ubicado en pleno centro de Rio de janeiro a pocosmetros de la playa</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                    <button type="button" class="btn btn-secondary btn-reserva"> > Reservar <span class="oi oi-plus"></span</button>
                 </div>
             </div>
             <div class="card-hotel d-flex flex-column justify-content-between">
@@ -89,7 +115,7 @@
                     <p>Hotel ubicado en el centro</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                    <button type="button" class="btn btn-secondary btn-reserva">Reservar <span class="oi oi-plus"></span> </button>
                 </div>
             </div>
             <div class="card-hotel d-flex flex-column justify-content-between">
@@ -98,7 +124,7 @@
                     <p>Hotel ubicado en el centro</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                    <button type="button" class="btn btn-secondary btn-reserva"> Reservar <span class="oi oi-plus"></span></button>
                 </div>
             </div>
             <div class="card-hotel d-flex flex-column justify-content-between">
@@ -107,7 +133,7 @@
                     <p>Hotel ubicado en el centro</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-secondary btn-reserva">Reservar</button>
+                    <button type="button" class="btn btn-secondary btn-reserva"> Reservar <span class="oi oi-plus"></span></button>
                 </div>
             </div>
 
@@ -119,18 +145,18 @@
     <footer>
         <div class="row">
             <div class="col-sm-4 d-flex flex-column align-items-start">
-                <a href="#">Facebook</a>
+                <a href="#">Facebook</a> <ion-icon name="logo-facebook"></ion-icon>
                 <a href="#">Twitter</a>
                 <a href="#">Instagram</a>
             </div>
             <div class="col-sm-4 d-flex flex-column align-items-center">
                 <address>
                     <h3>Oficina Central</h3>
-                    <p> Sarasa 844 ,CABA, Argentina</p>
-                    <p> +549110123456</p>
-                    <a href="mailto:">contacto@guiahoteles</a>
+                    <p> <span class="oi oi-home footer-address-icon"></span>  Sarasa 844 ,CABA, Argentina</p>
+                    <p><span class="oi oi-phone footer-address-icon" name="call-outline"></span> +549110123456</p>
+                    <a href="mailto:"><span class="oi oi-inbox footer-address-icon" ></span> contacto@guiahoteles</a>
                 </address>
-            </div>
+            </div> 
             <div class="col-sm-4 d-flex flex-column align-items-end">
                 <a href="#">Nosotros</a>
                 <a href="#">Precios</a>
@@ -141,13 +167,10 @@
     </footer>
 
 
-
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS in nodeJS  -->
-    <script src="node_modules/jquery/dist/jquery.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="node_modules/popper.js/dist/popper-utils.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
