@@ -20,7 +20,12 @@
     left: 0;
     bottom: 0;
     background-color: #0069d9;
+   
 }
+.btn-reserva > span{
+margin-left: 10px;
+}
+
 footer{
     margin-top: 10px;
     margin-bottom: 0px;
