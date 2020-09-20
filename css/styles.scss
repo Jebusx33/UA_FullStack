@@ -1,0 +1,57 @@
+$amarillo:rgb(255, 72, 0);
+$azul: #0069d9;
+$verde:green;
+
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+.jumbotron{
+    margin-top: 50px;
+    background-color: $amarillo;
+    color: black;
+}
+.imgCarrusel{
+    width: 2000px;
+    height: 320px;
+}
+.card-hotel{
+    /*margin: 10px;*/
+    flex: 1 250px;
+    padding: 2px 0px 1px 0px;
+    margin-top: 10px;
+}
+.card-subtitle{
+    margin-top: 10px;
+}
+.btn-reserva{
+    width: 100%;
+   /* position: absolute;*/
+    left: 0;
+    bottom: 0;
+    background-color: $azul;
+   border-radius: 0px;
+}
+.btn-reserva > span{
+margin-left: 10px;
+}
+
+.btn-contacto{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: $verde;
+}
+footer{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px 10px 0 10px ;
+    background-color: $amarillo;
+    
+}
+
+
+.footer-address-icon{
+    padding-right: 10px;
+}

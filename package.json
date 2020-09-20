@@ -1,27 +1,37 @@
 {
-  "name": "ua_fullstack",
+  "name": "ua-fullstack",
   "version": "1.0.0",
-  "description": "primer proyecto de nodejs",
-  "main": "index.html",
+  "private": true,
   "scripts": {
-    "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "gulp server",
+    "build": "gulp build"
   },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-usemin": "^0.3.30"
+  },
+  "description": "Guia de hoteles",
+  "main": "Gruntfile.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jebusx33/UA_FullStack.git"
   },
-  "author": "Jesus Arias",
+  "author": "Jesus Gabriel Arias",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jebusx33/UA_FullStack/issues"
   },
-  "homepage": "https://github.com/Jebusx33/UA_FullStack#readme",
-  "dependencies": {
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "open-iconic": "^1.1.1",
-    "popper.js": "^1.16.1"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/Jebusx33/UA_FullStack#readme"
 }

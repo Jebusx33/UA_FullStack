@@ -11,10 +11,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+
+
     <!-- Bootstrap CSS in nodeJs-->
+    <!-- en el caso de npm build:css dist/index.css -->
+    <!-- en el caso fe grunt -->
+    <!-- build:css css/index.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <!-- enbuild -->
     <title>Guia de Hoteles</title>
 </head>
 
@@ -255,7 +261,7 @@
         <!--content Modal-->
         <div class="tab-pane fade show" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
 
-            <!--****************Activador Modal**********-->
+            <!--****************Modal**********-->
 
             <div class="d-flex justify-content-center m-10">
                 <div class="card" style="width: 18rem; margin-top: 10px;">
@@ -272,8 +278,9 @@
                             <p> Poopover</p>
                         </a>
                     </div>
+                    <!--****************Activador Modal**********-->
                     <div>
-                        <button type="button" class="btn btn-primary btn-contacto" data-toggle="modal"
+                        <button id="contactoBtn" type="button" class="btn btn-primary btn-contacto" data-toggle="modal"
                             data-target="#contact">
                             Contactanos<span></span></button>
                     </div>
@@ -347,22 +354,16 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- en el caso de npm build:js dist/index.js -->
+        <!-- en el caso de grunt -->
+        <!-- build:js js/main.js -->
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/popper.js/dist/popper.min.js"
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"
             integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
 
-        <!--Jquery para los tooltip, popover y carrusel-->
-        <script>
-            $(document).ready(function () {
-                $('[data-toggle="tooltip"]').tooltip();
-                $('[data-toggle="popover"]').popover();
-                $('.carousel').carousel({
-                    interval: 3000
-                });
-            });
-        </script>
-
+        <!-- endbuild -->
 </body>
 
 </html>
